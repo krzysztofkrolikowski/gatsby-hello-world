@@ -1,12 +1,13 @@
 .links > a:not(:last-of-type) {
-  padding-right: 8px
+  margin-right: 16px
 }
 
 .links > a {
   text-decoration: none;
   text-transform: uppercase;
-  color: black;
+  color: #878ea1;
   font-weight: 500;
+  padding: 2px 8px
 }
 
 body {

@@ -1,18 +1,18 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import './Navbar.css';
-import { Nav } from './Navbar.styles';
+import { Nav, Logo } from './Navbar.styles';
 
 function MyComponent() {
   return (
     <Nav>
-      <h3>HELLO WORLD</h3>
+      <Logo>HELLO WORLD</Logo>
       <div className="links">
-        <Link to="/">
+        <Link to="/" activeClassName="active">
           Home
         </Link>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
+        <Link to="/about" activeClassName="active">About</Link>
+        <Link to="/projects" activeClassName="active">Projects</Link>
       </div>
     </Nav>
   );
