@@ -1,0 +1,15 @@
+.links > a:not(:last-of-type) {
+  padding-right: 8px
+}
+
+.links > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  font-family: Futura;
+}
